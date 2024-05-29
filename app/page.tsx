@@ -1,7 +1,17 @@
-import Image from "next/image";
+ import BioInfo from "@/components/BioInfo";
+import Camp from "@/components/Camp";
+import Guide from "@/components/Guide";
+import Features from "@/components/Features";
+import GetApp from "@/components/GetApp";
 
 export default function Home() {
   return (
-    <div className="font-bold text-2xl text-teal-500">Home Page</div>
+    <>
+      <BioInfo/>
+      <Camp/>
+      <Guide/>
+      <Features/>
+      <GetApp/>
+    </>
   );
 }
