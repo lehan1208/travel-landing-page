@@ -8,13 +8,14 @@ interface ButtonProps {
   variant?: "btn_dark_green" | string;
   endIcon?: string;
   onClick?: () => void;
+  full?: boolean,
 }
 
-export default function Button ({type, title, startIcon, variant, endIcon, onClick }: ButtonProps) {
+export default function Button ({type, title, startIcon, variant, endIcon, onClick, full}: ButtonProps) {
 
   return (
     <button
-      className={`flexCenter gap-3 rounded-full border ${variant}`}
+      className={`flexCenter gap-3 rounded-full border ${variant} ${full && 'w-full'}`}
       type={type}
       onClick={() => {
         onClick && onClick()
