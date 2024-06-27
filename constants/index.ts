@@ -52,8 +52,8 @@ export const FOOTER_LINKS = [
   {
     title: 'Learn More',
     links: [
-      'About Hilink',
-      'Press Releases',
+      'About Me',
+      'Releases',
       'Environment',
       'Jobs',
       'Privacy Policy',
@@ -62,25 +62,40 @@ export const FOOTER_LINKS = [
   },
   {
     title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    links: ['Lac Trip', 'Hoi Cuong Chan', 'Ke Du Muc'],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: 'Admin Officer', value: '0388-538-411' },
+    { label: 'Email Officer', value: 'lehan1208.j@gmail.com' },
   ],
 };
 
 export const SOCIALS = {
   title: 'Social',
   links: [
-    '/facebook.svg',
-    '/instagram.svg',
-    '/twitter.svg',
-    '/youtube.svg',
-    '/wordpress.svg',
+    {
+      href: 'https://www.facebook.com/',
+      icon: '/facebook.svg',
+    },
+    {
+      href: 'https://www.instagram.com/',
+      icon: '/instagram.svg',
+    },
+    {
+      href: 'https://twitter.com/',
+      icon: '/twitter.svg',
+    },
+    {
+      href: 'https://www.youtube.com/',
+      icon: '/youtube.svg',
+    },
+    {
+      href: 'https://wordpress.com/',
+      icon: '/wordpress.svg',
+    },
   ],
 };
